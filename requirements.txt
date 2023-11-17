@@ -1,0 +1,14 @@
+dash
+plotly
+pandas
+transformers
+googletrans==4.0.0-rc1
+xformers
+google.cloud
+wordcloud
+nltk
+matplotlib
+torch 
+beautifulsoup4
+unidecode
+seaborn-0.13.0

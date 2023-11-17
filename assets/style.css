@@ -1,0 +1,81 @@
+/*  For this CSS file to work, it must be in a folder 'assets' */
+
+body {
+    background-color: #E0FFFF;
+}
+
+.logo_image{
+    display : 'block';
+    margin : 'auto';
+}
+
+.div_layout{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.centralized_title {
+    font-size: 30px; /* Define o tamanho da fonte */
+    font-family: Monaco ;
+    text-align: center;
+    color: #17191a; /* Define a cor do texto */
+    font-weight: bold; 
+    
+}
+
+.round_button {
+    width: 80px; /* Defina o tamanho desejado para o botão */
+    height: 80px; /* A mesma altura que a largura para criar um botão circular */
+    border-radius: 60%; /* Define o raio para criar a forma circular */
+    background-color: #a4adb6; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-size: 25px; /* Tamanho da fonte do texto */
+    text-align: center; /* Centraliza o texto vertical e horizontalmente */
+    line-height: 40px; /* Centraliza o texto verticalmente */
+    /*border: none; /* Remove a borda */
+    /*border: 16px solid rgb(12, 138, 196);  Deixa a mesma cor que o fundo, borda */
+    border: 16px solid #E0FFFF;
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+.input_box{
+    text-align: center;
+    font-display: 30px;
+    border: 1px solid #ccc; /* Borda sólida com uma cor cinza (#ccc) */
+    border-radius: 10px; /* Define um raio de 5 pixels para cantos arredondados */
+    width: 300px; /* Defina o tamanho desejado para o botão */
+    height: 40px; /* A mesma altura que a largura para criar um botão circular */
+}
+
+.classe_barra {
+    /* width: 700px; */
+    width: 50%;
+    
+    height: 100px;
+   
+   }
+.plotly-bar rect {
+    width: 5px; /* Defina a largura desejada das barras em pixels */
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.comments_box{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.show_cloud{
+    margin-top: 120px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.div_comments{
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    text-align: center; 
+}
